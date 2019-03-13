@@ -7,16 +7,17 @@
   </div>
 </template>
 <script>
-  export default {
-    name: 'iFormItem',
-    props: {
-      label: {
-        type: String,
-        default: ''
-      },
-      prop: {
-        type: String
-      }
+import Emitter from "../../mixins/emitter.js";
+export default {
+  name: "iFormItem",
+  props: {
+    label: {
+      type: String,
+      default: ""
+    },
+    prop: {
+      type: String
     }
   }
+};
 </script>
