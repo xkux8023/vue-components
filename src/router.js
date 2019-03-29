@@ -12,15 +12,15 @@ export default new Router({
     {
       path: '/form',
       component: () => import('./views/form.vue')
-    }
-    // {
-    //     path: '/checkbox',
-    //     component: () => import('./views/checkbox.vue')
-    // },
-    // {
-    //     path: '/display',
-    //     component: () => import('./views/display.vue')
-    // },
+    },
+    {
+        path: '/checkbox',
+        component: () => import('./views/checkbox.vue')
+    },
+    {
+        path: '/display',
+        component: () => import('./views/display.vue')
+    },
     // {
     //     path: '/alert',
     //     component: () => import('./views/alert.vue')
