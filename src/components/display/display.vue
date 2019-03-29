@@ -19,7 +19,7 @@
         css: '',
         id: randomStr()
       }
-    }
+    },
     methods: {
       getSource (source, type) {
         // 使用正则，基于 <> 和 </> 的特性进行分割
