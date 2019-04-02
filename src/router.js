@@ -21,10 +21,10 @@ export default new Router({
         path: '/display',
         component: () => import('./views/display.vue')
     },
-    // {
-    //     path: '/alert',
-    //     component: () => import('./views/alert.vue')
-    // },
+    {
+        path: '/alert',
+        component: () => import('./views/alert.vue')
+    },
     // {
     //     path: '/table-render',
     //     component: () => import('./views/table-render.vue')

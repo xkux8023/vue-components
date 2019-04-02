@@ -3,8 +3,9 @@
     <div id="nav">
       <router-link to="/">Index</router-link>
       <router-link to="/form">具有数据校验功能的表单组件 —— Form</router-link>
-      <router-link to="/checkbox">复选框组件 —— Checkbox </router-link>
-      <router-link to="/display">动态渲染组件 —— Display </router-link>
+      <router-link to="/checkbox">复选框组件 —— Checkbox</router-link>
+      <router-link to="/display">动态渲染组件 —— Display</router-link>
+      <router-link to="/alert">全局通知组件 —— $Alert</router-link>
     </div>
     <router-view/>
   </div>
